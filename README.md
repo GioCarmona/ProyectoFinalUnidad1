@@ -14,5 +14,5 @@ Módulos: Todos los módulos presentan el contenido correspondiente con una estr
 Ayuda: Formulario de contacto para reportar errores de funcionamiento.
 
 #AUTOR
-Desarrollado por Arachne Software - Giovanni Carmona
+Desarrollado por ArachneCol Software - Giovanni Carmona
 Todos los derechos reservados
