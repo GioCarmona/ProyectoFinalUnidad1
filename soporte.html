@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Módulo 4</title>
+    <title>PEHTR</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./STYLES/styles.css">
     <link rel="stylesheet" href="./STYLES/mq.css">
     <link rel="shortcut icon" href="./ASSETS/IMG/Logo Arachne Software/favicon-16x16.png">
     <script src="https://kit.fontawesome.com/31b9f39739.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <!-- Barra de navegación -->
@@ -63,16 +65,77 @@
             </div>
         </nav>
     </header>
-    <main class="container text-center">
-        <h1>MÓDULO 4</h1>
-        <H2>EN CONSTRUCCIÓN</H2>
-        <h5>Actualmente este módulo se encuentra en construcción y proximamente estará disponible</h5>
-        <img src="./ASSETS/VIDEO/En construcción.gif" width="350px">
+    <main>
+        <section class="wrap">
+            <div class="wrap-texto">
+                <h2>SOPORTE TÉCNICO</h2>
+                <p>Solucionaremos los inconvenientes lo antes posible</p>
+            </div> 
+        </section>
         <br>
+        <form action="../supportForm.php" target="_blank"></form>    
+            <fieldset class="datosContacto">      
+                <legend>DATOS DE CONTACTO</legend>
+                <p><label>Ingresa tu nombre completo:</label>
+                    <br>
+                    <input type="text" name="nombrecompleto" style="width: 50%">
+                </p>  
+                <br>                    
+                <p><label>Ingresa tu dirección de correo electrónico:</label>
+                    <br>
+                    <input type="text" name="correoElectronico" style="width: 50%">
+                </p> 
+                <br>
+                <p><label>Ingresa tu usuario de acceso:</label>  
+                        <br>
+                        <input type="text" name="UsuarioAcceso" style="width: 50%">
+                    </p>                              
+            </fieldset>
         <br>
-        <button>
-            <a href="./index.html">VOLVER A INICIO</a>
-        </button>
+            <fieldset class="infoSoporte">
+            <legend>INFORMACIÓN PARA SOPORTE</legend>            
+                <p><label>Selecciona el producto para el cual requieres soporte:</label>
+                     <br>
+                    <select name="categorias[]" id="#" style="width: 50%">
+                        <option value="cursosVirtuales">Cursos Virtuales</option>
+                        <option value="pruebasPsicometricas">Pruebas Psicométricas</option>
+                        <option value="rrhhSoftware">Software Gestión RRHH</option>
+                    </select>
+                </p>
+                <br>                
+                <p><label>Selecciona la categoria en la que requieres soporte:</label>
+                    <br>
+                    <input type="radio" name="categoriaSoporte" value="credenciales"> Usuarios y/o contraseñas <br>
+                    <input type="radio" name="categoriaSoporte" value="funcionamientoSoftware"> Funcionamiento del software <br>
+                    <input type="radio" name="categoriaSoporte" value="erroresVisualizacion"> Errores de visualización <br>
+                    <input type="radio" name="categoriaSoporte" value="contenidos"> Contenidos <br>
+                    <input type="radio" name="categoriaSoporte" value="mensajesDeError"> Mensajes de error <br>
+                    <input type="radio" name="categoriaSoporte" value="otro"> Otro <br>                    
+                </p>
+                <br>
+                <p><label>Describe brevemente el caso:</label>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Escribe aqui</label>
+                    </div>
+                </p>
+                <br>
+            <fieldset class="infoSoporte">
+            <legend>ADJUNTA UN ARCHIVO DE EVIDENCIA</legend>            
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Si tienes una captura de pantalla o un archivo con el mensaje de error, adjuntalo aqui:</label>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+
+
+
+
+
+                  <input type="reset" value="Reiniciar el formulario"> <input type="submit" value="Enviar la información">
+                    
+
+            </section>
+        
     </main>
     <footer>
         <div class="container text-center">
@@ -99,8 +162,6 @@
                 </div>
             </div>
         </div>
-
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"> </script>
 </body>
-</html>

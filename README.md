@@ -7,11 +7,11 @@ Curso web compuesto por:
 *Módulo 2 - Habiliades Autonomía
 *Módulo 3 - Habilidades para la buena gestión del tiempo
 *Módulo 4 - Uso de herramientas teconológicas
-*Ayuda 
+*Soporte 
 
 Página de Bienvenida: Presenta información inicial básica del curso, Definición del programa de entrenamiento, estructura modular y contenido.
 Módulos: Todos los módulos presentan el contenido correspondiente con una estructura de cuatro componentes (Introducción, desarrollo temático, actividades y evaluación)
-Ayuda: Formulario de contacto para reportar errores de funcionamiento.
+Soporte: Formulario de contacto para reportar errores de funcionamiento.
 
 #AUTOR
 Desarrollado por ArachneCol Software - Giovanni Carmona

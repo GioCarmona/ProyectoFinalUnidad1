@@ -1,0 +1,22 @@
+
+
+
+
+
+
+/* SOPORTE */ /* Imagen de fondo y texto con contraste */
+.wrap{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    background: linear-gradient(to Right,rgb(0, 0, 0, .75),rgb(0, 0, 0, .1)),url(/ASSETS/IMG/Banner.jpg) ;
+    background-size: cover;
+    background-position: top;
+}
+.wrap-texto{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 50%;
+}
