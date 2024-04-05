@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="./STYLES/styles.css">
     <link rel="stylesheet" href="./STYLES/mq.css">
     <link rel="shortcut icon" href="./ASSETS/IMG/Logo Arachne Software/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/31b9f39739.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <!-- Barra de navegación -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container text-left">
                 <div class="col-md-3">
                     <a class="navbar-brand" href="#"><img src="./ASSETS/IMG/Logo ArachneCol cuadrado.png"
@@ -31,7 +34,7 @@
 
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                                <a class="nav-link" href="./index.html">Inicio</a>
                             </li>
 
                             <li class="nav-item">
@@ -66,10 +69,15 @@
         </nav>
     </header>
     <main>
+        <br>
         <!-- Sección ¿Qué es PEHTR? -->
+
+        <h1>Programa de Entrenamiento en Habilidades para el Trabajo Remoto</h1>
+        <br>
         <section class="seccion1" id="queEs">
-            <h1>Programa de Entrenamiento en Habilidades para el Trabajo Remoto</h1>
-            <h2>¿Que es el PEHTR?</h2>
+            
+            <h2>¿Qué es el PEHTR?</h2>
+            <hr>
             <p>El <strong>Programa</strong> de <strong>Entrenamiento</strong> en <strong>Habilidades</strong> para el
                 <strong>Trabajo Remoto</strong> -PEHTR- es un curso virtual diseñado
                 para fortalecer habilidades dirigidas a mejorar el desempeño de los colaboradores cuando realizan sus
@@ -77,6 +85,7 @@
             </p>
 
         </section>
+        <br>
         <!-- Carrusel -->
         <section class="carrusel">
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
@@ -90,29 +99,28 @@
                 </div>
                 <div class="carousel-inner miCarrusel">
                     <div class="carousel-item active imgCarrusel" data-bs-interval="10000">
-                        <img src="./ASSETS/IMG/Autonomía.jpg" class="d-block w-100" alt="...">
+                        <img src="./ASSETS/IMG/Autonomía.jpg" class="d-block w-100" alt="..." id="imgCarr1">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 class="textoCarrusel">Habilidades de autonomía</h5>
+                            <h3 class="textoCarrusel">Habilidades de autonomía</h3>
                             <p class="textoCarrusel">Potenciarás habilidades como toma de decisiones y creación de
                                 planes de
                                 trabajo adaptados a tus necesidades</p>
                         </div>
                     </div>
                     <div class="carousel-item imgCarrusel" data-bs-interval="2000">
-                        <img src="./ASSETS/IMG/Gestión del tiempo.jpg" class="d-block w-100" alt="...">
+                        <img src="./ASSETS/IMG/Gestión del tiempo.jpg" class="d-block w-100" alt="..." id="imgCarr2">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 class="textoCarrusel">Habilidades para la buena gestión del tiempo</h5>
+                            <h3 class="textoCarrusel">Habilidades para la buena gestión del tiempo</h3>
                             <p class="textoCarrusel">Aprenderás a priorizar actividades y optimizar el tiempo a tu favor
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item imgCarrusel">
-                        <img src="./ASSETS/IMG/Herramientas tecnológicas2.jpg" class="d-block w-100" alt="...">
+                        <img src="./ASSETS/IMG/Herramientas tecnológicas2.jpg" class="d-block w-100" alt="..." id="imgCarr3">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 class="textoCarrusel">Uso de herramientas tecnológicas</h5>
+                            <h3 class="textoCarrusel">Uso de herramientas tecnológicas</h3>
                             <p class="textoCarrusel">Herramientas útiles que te ayudarán a desempeñar funciones de
-                                manera
-                                remota</p>
+                                manera remota</p>
                         </div>
                     </div>
                 </div>
@@ -131,8 +139,9 @@
         <br>
         <br>
         <!-- Estructura -->
-        <section class="Estructura" id="estructura">
+        <section class="seccion2" id="estructura">
             <h2>Estructura</h2>
+            <hr>
             <p>Cada módulo de estudio ofrece contenido agradable, actividades y pruebas que garantizan un aprendizaje
                 divertido y efectivo </p>
 
@@ -190,8 +199,9 @@
         <br>
 
         <!-- Contenido -->
-        <section class="Seccion2" id="contenido">
+        <section class="seccion3" id="contenido">
             <h2>Contenido</h2>
+            <hr>
             <p>El curso se desarrolla a traves de cuatro módulos que abordan habilidades estratégicas, comenzando desde
                 el autoconocimiento y continuando con la identificación de factores externos que impactan el desempeño
                 laboral, pero que pueden adaptarse a favor de cada individuo.</p>
@@ -201,19 +211,15 @@
         <section class="modulo1" id="mod1">
             <h3>Módulo 1 - Introducción</h3>
             <div class="container text-center">
-                <iframe class="video1" width="90%" height="auto" src="https://www.youtube.com/embed/-DdlGj0BxC4"
+                <iframe class="video1" width="100%" height="auto" src="https://www.youtube.com/embed/-DdlGj0BxC4"
                     title="El sistema de recompensa: Cómo el cerebro asocia esfuerzo y premio | Sana Mente"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen>
                 </iframe>
                 <article class="texto1" id="md1">
-                    <p id="textBold">¿Trabajas en casa y te ves tentado a aplazar las obligaciones laborales para poder
-                        mirar
-                        un partido de futbol o un episodio de tu serie favorita?</p>
-                    <p>Entender como funciona el sistema de recompensas en nuestro cerebro te servirá para priorizar
-                        actividades
-                        y encontrar motivadores que te lleven a lograr objetivos que demanden esfuerzo.</p>
+                    <p class="textBold">"Lo mejor de trabajar en casa es que puedes mirar simultaneamente un partido de futbol o un episodio de tu serie favorita"</p>
+                    <p>Entender como funciona el sistema de recompensas en nuestro cerebro te servirá para fortalecer la constancia, encontrar motivadores que te lleven a lograr objetivos y evitar aplazar las obligaciones por disfrutar recompensas pasajeras.</p>
                 </article>
                 <div class="botonCurso">
                     <a href="./modulo1.html">Ir al módulo 1</a>
@@ -224,6 +230,7 @@
         <!-- Descripción módulo 2 -->
         <section class="modulo2" id="mod2">
             <h3>Módulo 2 - Habilidades de autonomía</h3>
+            <hr>
             <div class="container text-center">
                 <div class="row align-items-center">
                     <div class=col-md-4>
@@ -233,13 +240,13 @@
                     </div>
                     <div class=col-md-8>
                         <article class="texto2" id="md2">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nobis minus quos
-                                explicabo eos architecto veritatis laboriosam itaque libero eum ipsa maiores esse,
-                                dolores maxime quae, animi in quis doloremque!</p>
+                            <p class="textBold">"Algunos piensan que lo mejor de trabajar de manera remota es no tener al jefe encima"</p>
+                            <br>
+                            <p>Trabajar en casa conlleva a hacerlo sin la supervisión y orientación tradicional de la presencialidad. Esto implica que debes tomar decisiones y crear planes de trabajo para cumplir tus funciones manera responsable. En este módulo encontrarás herramientas que fortalecerán tu autonomía, creatividad, productividad y responsabilidad.</p>       
                         </article>
                     </div>
                 </div>
-                <div class="boton">
+                <div class="botonCurso">
                     <a href="./modulo2.html">Ir al módulo 2</a>
                 </div>
 
@@ -249,13 +256,14 @@
         <!-- Descripción módulo 3 -->
         <section class="modulo3" id="mod3">
             <h3>Módulo 3 - Habilidades para la buena gestión del tiempo</h3>
+            <hr>
             <div class="container text-center">
                 <div class="row align-items-center">
                     <div class=col-md-8>
                         <article class="texto3" id="md3">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nobis minus quos
-                                explicabo eos architecto veritatis laboriosam itaque libero eum ipsa maiores esse,
-                                dolores maxime quae, animi in quis doloremque!</p>
+                            <p class="textBold">"Yo soy más productivo por las noches, prefiero trasnochar para cumplir con los temas del trabajo y domir hasta el medio día"</p>
+                            <br>
+                            <p>La libertad para gestionar el tiempo a tu favor no debe implicar una afectación al bienestar personal, el desempeño laboral o la disponibilidad cuando haces parte de un equipo. Este módulo te ofrece elementos útiles para optimizar el tiempo, creación de rutinas y priorización de actividades, que contribuyen a reducir el estres y mantener un equilibrio entre el trabajo y la vida personal.</p>
                         </article>
                     </div>
                     <div class=col-md-4>
@@ -264,7 +272,7 @@
                         </figure>
                     </div>
                 </div>
-                <div class="boton">
+                <div class="botonCurso">
                     <a href="./modulo3.html">Ir al módulo 3</a>
                 </div>
 
@@ -274,6 +282,7 @@
         <!-- Descripción módulo 4 -->
         <section class="modulo4" id="mod4">
             <h3>Módulo 4 - Uso de herramientas tecnológicas</h3>
+            <hr>
             <div class="container text-center">
                 <div class="row align-items-center">
                     <div class=col-md-4>
@@ -283,13 +292,13 @@
                     </div>
                     <div class=col-md-8>
                         <article class="texto4" id="md4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nobis minus quos
-                                explicabo eos architecto veritatis laboriosam itaque libero eum ipsa maiores esse,
-                                dolores maxime quae, animi in quis doloremque!</p>
+                            <p class="textBold">"¡Por favor compañeros! Volvieron a desconfigurar el documento que estamos trabajando de manera colaborativa y otra vez borraron archivos de la carpeta que está en la nube"</p>
+                            <br>
+                            <p>El trabajo remoto exige que sepas usar plataformas para encuentros sincrónicos, gestionar información en nubes de almacenamiento y aportar en construcciones colaborativas, por mencionar algunos conocimientos. El dominio de las herramientas tecnológicas demanda tiempo y práctica; sin embargo, este curso te brinda contenido básico de las más utilizadas y harán tu trabajo más ágil y sencillo.</p>
                         </article>
                     </div>
                 </div>
-                <div class="boton">
+                <div class="botonCurso">
                     <a href="./modulo4.html">Ir al módulo 4</a>
                 </div>
         </section>
@@ -298,27 +307,27 @@
 
     <!-- Pie de pagina -->
     <footer>
-        <div class="container text-center">
-            <div class="row align-items-center">
-                <div class="col">
-                    <img src="./ASSETS/IMG/Logo ArachneCol cuadrado.png" width="20%">
-                    <address class="derechos">ARACHNECOL SOFTWARE - TODOS LOS DERECHOS RESERVADOS</address>
-
-                </div>
-                <div class="col">
-                    Encuentranos en:
-                    <br>
-                    <i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/?locale=es_LA"
+        <div class="containerFooter">
+            <div class="row">
+                <div class="col text-left">
+                    <p class="footerText">Encuentranos en: <br><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/?locale=es_LA"
                         target="_blank"> Facebook</a><br>
                     <i class="fa-brands fa-twitter"></i> <a href="https://twitter.com/?lang=es"
                         target="_blank">Twitter</a><br>
                     <i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/" target="_blank">
-                        Instagram</a><br>
+                        Instagram</a></p>                   
+                    
                 </div>
-                <div class="col">
-                    Visitanos para conocer más cursos y software en:
-                    <br>
-                    <a href="https://www.arachnecol.com" target="_blank">www.arachneCol.com</a>
+
+                <div class="col text-center align-self-center">
+                    <img src="./ASSETS/IMG/Logo ArachneCol cuadrado.png" width="15%">
+                    <p class="footerText">Visitanos para conocer más cursos y software en: <br><a href="https://www.arachnecol.com" target="_blank">www.arachneCol.com</a></p>         
+                </div>
+                
+                <div class="col text-end align-self-center">
+                    <address class="derechos">ARACHNECOL SOFTWARE
+                        <br>
+                        TODOS LOS DERECHOS RESERVADOS</address>                    
                 </div>
             </div>
         </div>
