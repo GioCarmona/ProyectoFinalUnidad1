@@ -12,6 +12,9 @@
 span{
     color: white;
 }
+.menuDespl{
+    background-color: white;
+}
 .dropdown-menu{
     background-color: white;  
     border-color: rgba(11, 48, 66, 255);
@@ -37,8 +40,8 @@ h1{
 }
 .miCarrusel .imgCarrusel{
     width: 100%;
-    height: 70vh;
-    padding: 10px 140px 10px 140px;
+    height: 100%;
+    padding: 10px 50px 10px 50px;    
 }
 #imgCarr1{
     filter: brightness(0.5);
@@ -83,7 +86,6 @@ h1{
 .botonCurso{        
     text-align: center;
     background-color: rgb(191, 191, 94);
-    padding: 5px 3px;
     width: 20%;
 }
 .botonCurso a{
